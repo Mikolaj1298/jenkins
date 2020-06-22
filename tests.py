@@ -5,7 +5,7 @@ import xmlrunner
 
 class TestScrabble(unittest.TestCase):
 
-    def test_open_page(self):
+    def test-case-01(self):
         try:
             driver.get("https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna")
             self.assertTrue(True)
